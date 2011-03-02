@@ -1,0 +1,23 @@
+
+Zend Model Mapper
+Copyright 2011 Matt McCormick
+http://mattmccormick.ca
+matt@mattmccormick.ca
+
+You may use this code freely in your own projects.  If it helped save you time
+or frustration, a donation would be much appreciated.  Donations can be made
+through my website or via Paypal to my email address.
+
+The PEAR package Image_GraphViz is required for this script to work.
+
+	pear install Image_GraphViz
+
+To use, place this script in a folder under your Zend application directory and alter line 24 to setup your Zend environment.
+
+To run, from the command line simply type:
+
+	php ZendModelMapper.php
+
+The diagrams will be output in PDF folder under application/diagrams/ZendModelMapper/YYYY-MM-DD.pdf
+
+Enjoy!
